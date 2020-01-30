@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css' //Se importa primero para que index.css haga override de las clases de bootstrap, en caso de querer tener algun custom
+import 'font-awesome/css/font-awesome.css';
+import 'bootstrap-social/bootstrap-social.css';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
